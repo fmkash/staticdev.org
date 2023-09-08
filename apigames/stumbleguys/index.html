@@ -34,12 +34,12 @@
 		<script src="Build/WebGl.Loader.js"></script>
 		<script>
 			createUnityInstance(document.querySelector("#unity-canvas"), {
-				dataUrl: "Build/WebBuilds.data",
-				frameworkUrl: "Build/WebBuilds.framework.js",
-				codeUrl: "Build/WebBuilds.wasm",
+				dataUrl: "Build/WebGL.data.unityweb",
+				frameworkUrl: "Build/WebGL.framework.js",
+				codeUrl: "Build/WebGL.wasm.unityweb",
 				streamingAssetsUrl: "StreamingAssets",
-				companyName: "Cosmic Adventure Squad",
-				productName: "Deepest Sword",
+				companyName: "Stumble Guys Inc",
+				productName: "Stumble Guys",
 				productVersion: "0.1.5c",
 			}).then(function (instance) {
 				var canvas = instance.Module.canvas;
